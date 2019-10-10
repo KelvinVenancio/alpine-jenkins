@@ -1,5 +1,5 @@
 
-### steps to build image and ran with Docker
+### steps to build image and ran with Docker [![Build Status](https://travis-ci.com/KelvinVenancio/alpine-jenkins.svg?branch=master)](https://travis-ci.com/KelvinVenancio/alpine-jenkins)
 
 - `git clone git@github.com:KelvinVenancio/alpine-jenkins.git`
 - `cd alpine-jenkins`
