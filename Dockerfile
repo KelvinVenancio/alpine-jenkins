@@ -9,6 +9,8 @@ RUN apk add --update shadow \
     && groupadd -g 50 staff \
     && usermod -a -G staff jenkins
 
+COPY security.groovy /usr/share/jenkins/ref/init.groovy.d/security.groovy
+
 USER jenkins
 RUN /usr/local/bin/install-plugins.sh \
 blueocean \
