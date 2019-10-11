@@ -25,7 +25,6 @@ groovy \
 pipeline-utility-steps
 
 ENV JAVA_OPTS="-Djenkins.install.runSetupWizard=false"
-ENV JAVA_OPTS="-Djenkins.install.state=INITIAL_SECURITY_SETUP"
 
 USER root
 
