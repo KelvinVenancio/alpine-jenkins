@@ -29,7 +29,7 @@ ENV JAVA_OPTS="-Djenkins.install.state=INITIAL_SECURITY_SETUP"
 
 USER root
 
-RUN mkdir /var/jenkins_home/jobs/petclinic-pipeline/
+RUN mkdir -p /var/jenkins_home/jobs/petclinic-pipeline/
 COPY config.xml /var/jenkins_home/jobs/petclinic-pipeline/
 RUN chown -R root:jenkins /var/jenkins_home/jobs/petclinic-pipeline/
 
